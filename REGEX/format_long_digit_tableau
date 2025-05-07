@@ -1,1 +1,0 @@
-REGEXP_REPLACE(STR([value]), '(?<=\d)(?=(\d{3})+(?!\d))', ",")

@@ -1,0 +1,3 @@
+if you have a value stored as a string in tableau, but want it formatted as a number:
+
+REGEXP_REPLACE(STR([value]), '(?<=\d)(?=(\d{3})+(?!\d))', ",")
